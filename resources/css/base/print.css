@@ -1,0 +1,12 @@
+/* Aturan print untuk halaman yang memakai layouts/app.
+   Menyembunyikan elemen .no-print (sidebar, header, footer) saat dicetak
+   dan memutihkan latar, supaya hasil cetak bersih. */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: #fff !important;
+    }
+}

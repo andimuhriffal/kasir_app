@@ -1,0 +1,15 @@
+/* Grafik tren omset 7 hari (dashboard).
+   Tinggi wadah grafik ditetapkan di sini supaya konsisten dan mudah diubah
+   dari satu tempat, bukan inline style di Blade. */
+.trend-chart {
+    height: 180px;
+}
+
+/* Batang grafik. Tingginya dinamis per hari, dikirim lewat CSS variable
+   --bar-height (diisi dari Blade di dashboard/index.blade.php dan dari
+   realtime.js saat polling), agar aturan height-nya tetap tinggal di CSS
+   dan markup/JS hanya mengirim nilainya. Nilai default 4% = tinggi minimum
+   supaya batang hari tanpa omset tetap terlihat. */
+.trend-chart-bar {
+    height: var(--bar-height, 4%);
+}
