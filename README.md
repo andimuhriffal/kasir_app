@@ -1,8 +1,5 @@
 # Titik Temu Kopi — Sistem Kasir & Pemesanan (POS)
 
-Aplikasi kasir (Point of Sales) Dine-In & Takeaway untuk kafe **Titik Temu Kopi**.
-Dibangun mengikuti panduan praktik **MED-WEB-01** (Sistem Kasir & Pemesanan Kafe Modern).
-
 ## Tech Stack
 
 | Komponen | Teknologi |
